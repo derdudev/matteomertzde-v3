@@ -1,0 +1,18 @@
+.link{
+    color: var(--font-color);
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff77;
+    transition: border-bottom-color .1s ease;
+}
+.link:hover{
+    cursor: pointer;
+    border-color: #ffffff var(--blue);
+}
+
+.outwardLink::after{
+    content: "↗";
+}
+
+.innerLink::after{
+    content: "→";
+}

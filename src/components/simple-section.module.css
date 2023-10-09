@@ -1,0 +1,12 @@
+.sectionContainer{
+    margin-bottom: 25px;
+}
+
+.heading{
+    opacity: .5;
+    margin-bottom: 5px;
+}
+
+.textBody{
+    line-height: var(--body-text-line-height);
+}
