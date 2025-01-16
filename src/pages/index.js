@@ -24,7 +24,7 @@ export default function Home() {
                     Hey, ich bin Matteo Mertz, {yearsold} Jahre alt und studiere Mathematik mit Nebenfach Informatik an der Technischen Universität München (TUM). Gerade arbeite ich neben meinem Studium hauptsächlich an der <CLink href={"https://github.com/derdudev/schnupperstunde-mathematik"}>Schnupperstunde Mathematik</CLink>.
                 </SimpleSection>
                 <SimpleSection title={"Mathematik"}>
-                    Ich liebe Mathematik und Logik. Darum studiere ich auch Mathematik im 3. Semester an einer der besten deutschen Hochschulen, die es dafür gibt: Der TU München.
+                    Ich liebe Mathematik und Logik. Darum studiere ich auch Mathematik im 5. Semester an einer der besten deutschen Hochschulen, die es dafür gibt: Der TU München.
                 </SimpleSection>
                 <SimpleSection title={"Programmieren & Design"}>
                     Zur Softwareentwicklung gehören zwei Teile: Implementierung und Design. Beide sind gleichermaßen wichtig, um ein Produkt zu einem guten Produkt zu machen. Ins Design habe ich mich dann aber doch etwas mehr verguckt.
