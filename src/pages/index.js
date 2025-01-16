@@ -6,7 +6,7 @@ export default function Home() {
     let birthday = new Date("1/4/2004");
     let today = new Date();
 
-    let yearsold = today.getFullYear() - birthday.getFullYear() - ((today.getMonth()>=4) ? 1 : 0);
+    let yearsold = today.getFullYear() - birthday.getFullYear() - ((today.getMonth()<4) ? 1 : 0);
 
     return <div className={styles.containerOuter}>
         <div className={styles.containerInner}>
@@ -21,7 +21,7 @@ export default function Home() {
             </header>
             <main>
                 <SimpleSection title={""}>
-                    Hey, ich bin Matteo Mertz, ${yearsold} Jahre alt und studiere Mathematik mit Nebenfach Informatik an der Technischen Universität München (TUM). Gerade arbeite ich neben meinem Studium hauptsächlich an der <CLink href={"https://github.com/derdudev/schnupperstunde-mathematik"}>Schnupperstunde Mathematik</CLink>.
+                    Hey, ich bin Matteo Mertz, {yearsold} Jahre alt und studiere Mathematik mit Nebenfach Informatik an der Technischen Universität München (TUM). Gerade arbeite ich neben meinem Studium hauptsächlich an der <CLink href={"https://github.com/derdudev/schnupperstunde-mathematik"}>Schnupperstunde Mathematik</CLink>.
                 </SimpleSection>
                 <SimpleSection title={"Mathematik"}>
                     Ich liebe Mathematik und Logik. Darum studiere ich auch Mathematik im 3. Semester an einer der besten deutschen Hochschulen, die es dafür gibt: Der TU München.
