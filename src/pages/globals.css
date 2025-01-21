@@ -4,7 +4,8 @@
     --font-family: "IBM Plex Mono", monospace;
     --font-color: #0533FF;
     --font-size: 14px;
-    --body-text-line-height: 1.5;
+    --body-text-line-height: 1.25;
+    --paragraph-text-align: justify;
 
     --primary-color: #fff;
 }
@@ -17,4 +18,5 @@ p{
     font-family: var(--font-family);
     color: var(--font-color);
     font-size: var(--font-size);
+    text-align: var(--paragraph-text-align);
 }
