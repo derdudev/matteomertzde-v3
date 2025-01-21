@@ -3,8 +3,9 @@
 }
 
 .heading{
-    opacity: .5;
+    /*opacity: .5;*/
     margin-bottom: 5px;
+    font-weight: 700;
 }
 
 .textBody{
