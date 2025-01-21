@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 :root{
-    --font-family: "IBM Plex Mono", monospace;
+    --font-family: "Crimson Pro";/*"IBM Plex Mono", monospace;*/
     --font-color: #0533FF;
     --font-size: 17px;
     --body-text-line-height: 1.25;
